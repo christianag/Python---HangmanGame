@@ -40,7 +40,7 @@ def hangman():
     if lives == 0:
         print(f'\nSorry, you are out of guesses. You lose! The word was {word}')
     else:
-        print('\nYou win! You guessed the word!')
+        print(f'\nYou win! The word is {word}'))
 
 
 if __name__ == '__main__':
